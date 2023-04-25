@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Women safety and Empowerment</title>
+  <link rel="stylesheet" href="aditya.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!--Font Awsome link-->
+  <script src="https://kit.fontawesome.com/2fc2e36707.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body style="font-family: serif;">
+  <div class="home" id="home">
+  <section>
+    <div class="row">
+      <div class="col">
+        <img class="logo" src="logo2.jpg">
+        <h1>Women safety and Empowerment</h1>
+      </div>
+      <div class="col">
+        <h3 class="helpline1"><img src="phone-solid.png" class="phone"> Women National helpline number :- 1091</h3>
+        <h3 class="helpline2"><img src="phone-solid.png" class="phone"> Women Helpline Domestic Abuse :- 181</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- navigation bar -->
+
+  <div class="navbar">
+    <a href="#home" class="anav">Home</a>
+    <a href="#issues" class="anav">Women issues</a>
+    <a href="#services" class="anav">Services</a>
+    <a href="Aboutus.html" class="anav">About</a>
+    <a href="contactus.html" class="anav">Contact</a>
+    <a href="login.html" id="formsubmit" type="button" name="submit" class="btn btn-dark login-but-home"
+    style="margin-top:15px; margin-left:30px;   border-radius: 8px; margin-bottom: 18px;font-size: 1.4rem;">Log
+    in</a>
+  </div>
+  <!-- carosel code w3school -->
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="image1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="image2.jpg" style="width:100%">
+    </div>
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+  </script>
+
+  </section>
+
+  <section>
+    <div class="div3">
+      <div class="div4">
+        <h3 style="color:purple; font-size: 2rem;"> About </h3><br>
+        <h2> Women safety and Empowerment Platform</h2><br>
+        <table>
+          <tr>
+            <td>
+              <p style="font-size: 1.09rem;">Women saety and Empowerment Platfrom is the platform where Women Helpline is intended to
+                provide
+                Digital
+                Complaint Registration System for women affected by violence
+                through referral (Linking with appropriate authority such as police, One Stop Centre, hospital) and
+                providing
+                information about women related government programmes across the country. This Helpline is being
+                operated from
+                the
+                premises of the National Commission for Women, New Delhi.<br>
+                NCW receives thousands of complaints every year related to Domestic Violence and other issues.
+
+                In order to help the women in registering complaints and provide psychological support, the NCW has
+                taken initiative to start this Helpline.
+
+                Any woman or girl (above 18 yrs) in distress seeking help can call this helpline. The helpline is
+                staffed by Psychological Counsellors trained in topmost Mental Health and Counselling institutions.
+              </p>
+            </td>
+            <td>
+              <img src="ncw_platform.svg" class="image3">
+            </td>
+          </tr>
+
+      </div>
+      </table>
+      <h5><b><em> Any emergency assistance please call 112.</h5></em></b>
+    </div>
+  </section>
+
+  <section>
+    <div class="div5" id="issues">
+      <h3 class="hd3">
+        <center> Women issues </center>
+      </h3>
+      <table>
+        <tr>
+          <td>
+            <div class="div6">
+              <img src="cyber_crimes.svg" class="image4">
+              <p class="p6" style="font-size: 1.2rem;">Cyber Crimes </p>
+          </td>
+
+          <td>
+            <div class="div6">
+              <img src="acid_attack.svg" class="image5">
+              <p style="font-size: 1.2rem;">Acid attack/Attempt</p>
+          </td>
+
+          <td>
+            <div class="div6">
+              <img src="sexual_assault.svg" class="image5">
+              <p style="font-size: 1.2rem;">Sexual assualt</p>
+          </td>
+
+          <td>
+            <div class="div6">
+              <img src="outraging_molestation.svg" class="image5">
+              <p style="font-size: 1.2rem;">Outraging Molestation</p>
+          </td>
+
+          <td>
+            <div class="div6">
+              <img src="sexual_harassment (1).svg" class="image5">
+              <p style="font-size: 1.2rem;">Sexual Harassment</p>
+          </td>
+        </tr>
+    </div>
+    <tr>
+      <td>
+        <div class="div6">
+          <img src="attempt_to_rape.svg" class="image4">
+          <p class="p6" style="font-size: 1.2rem;">Rape/Attempt to rape</p>
+      </td>
+
+      <td>
+        <div class="div6">
+          <img src="domestic_violence.svg" class="image5">
+          <p style="font-size: 1.2rem;">Domestic Violence</p>
+      </td>
+
+      <td>
+        <div class="div6">
+          <img src="choice_marriage.svg" class="image5">
+          <p style="font-size: 1.2rem;">Choice Marraige</p>
+      </td>
+
+      <td>
+        <div class="div6">
+          <img src="police_apathy.svg" class="image5">
+          <p style="font-size: 1.2rem;">Police issues</p>
+      </td>
+
+      <td>
+        <div class="div6">
+          <img src="mental_stress.svg" class="image5">
+          <p style="font-size: 1.2rem;">Metal Stress</p>
+      </td>
+    </tr>
+    </div>
+    </div>
+    </table>
+  </section>
+
+  <section>
+    <div class="row">
+      <div class="col">
+        <div class="div7">
+          <h4 class="hd4"> Our Objectives </h4>
+          <ul class="ul">
+            <li style="font-size: 1.19rem;">To provide Digital Complaint Registration System for women in distress through trained counsellors</li>
+            <li style="font-size: 1.19rem;">To facilitate psychological counselling or referral to the appropriate agencies such as,
+              <ul>
+                <li style="font-size: 1.19rem;">Police</li>
+                <li style="font-size: 1.19rem;">Hospitals</li>
+                <li style="font-size: 1.19rem;">District Legal Service Authority (DLSA)</li>
+                <li style="font-size: 1.19rem;">Protection Officer (PO)</li>
+                <li style="font-size: 1.19rem;">One Stop Crisis Centre (OSC)</li>
+              </ul>
+            </li>
+            <li style="font-size: 1.19rem;">To provide information about the appropriate support services, government agencies, etc</li><br>
+            <li style="font-size: 1.19rem;"><b>For any emergency assistance please call 112</b></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="div8" id="services">
+          <h4 class="hd4"> Our Services </h4>
+          <ul>
+            <li class="li1" style="font-size: 1.2rem;">Our websites receives thousands of complaints every year related to Domestic Violence and
+              other
+              issues. Such incidents
+              can make an adverse impact on mental health and sometimes they need psychological support to get out of
+              this
+              trauma.<br>
+
+              In order to help the women in registering complaints and provide psychological support, the Women safety
+              and
+              empowermnet has taken
+              initiative to start this Helpline.<br>
+
+              Any woman or girl (above 18 yrs) in distress seeking help can call this helpline. The helpline is staffed
+              by
+              Psychological Counsellors trained in topmost Mental Health and Counselling institutions.<br></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="row bot-tom" style="margin-top:400px ;">
+    <h2 class="hd2" style="color: white;">
+      <center>Connect with Us</center>
+    </h2>
+    <div class="div9 col-lg-6">
+      <h4 class="hc4">Presences on Social media</h4>
+      <img src="facebook-removebg-preview.png" class="image6">
+      <img src="twitter2-removebg-preview (1).png" class="image7">
+      <img src="instagram-removebg-preview.png" class="image8"><br>
+      <img src="whatsapp-removebg-preview.png" class="image9">
+      <img src="youtube-removebg-preview (3).png" class="image10">
+
+      <p class="p9">© Copyright AJP Web developers. All Rights Reserved.</p>
+    </div>
+
+
+    <div class="div11 col-lg-6">
+      <form class="form1">
+        <div class="f1">  
+          <table>
+            <tr>
+              <td>
+                <label for="firstName" class="form-label fname" style="margin-left: 50px;"><em><b>Name*</b></em></label>
+                <input type="text" class="form-control" name="firstname" id="firstName" required
+                  style="width:300px; height:30px; margin-left: 50px; border-radius: 3px;">
+              </td>
+        </div>
+
+        <td>
+          <div class="f1a">
+            <label for="mobile" class="form-label"
+              style="margin-left: 50px; margin-top:30px"><em><b>Mobile*</b></em></label>
+            <input type="number" class="form-control" name="mobile" id="mobile" required
+              style="width:300px; height:30px; margin-left: 50px; border-radius: 3px;">
+        </td>
+        </tr>
+    </div>
+
+
+    <tr>
+      <td>
+        <div class="f2">
+          <label for="email" class="form-label"><em><b>Email*</b></em></label>
+          <input type="email" class="form-control" name="email" id="email" required style="width:300px; height:30px; border-radius: 3px;">
+      </td>
+  </div>
+
+  <td>
+    <div class="f2">
+      <label for="message" class="form-label" style="margin-top:10px;"><em><b>Message*</b></em></label>
+      <textarea class="form-control" rows="2" name="message" required cols="25"
+        style="width:300px; height:30px; border-radius: 3px;"></textarea>
+  </td>
+  </tr>
+  </div>
+  </table>
+  <div class="col">
+    <button id="formsubmit" type="submit" name="submit" class="btn btn-dark Submit">Submit</button>
+  </div>
+  <div class="col">
+    <div id="HiddenDiv" style="font-size: 1.1rem;">Thank You for contacting us. We will get back to you at the earlist</div>
+  </div>
+  </form>
+  </div>
+  </div>
+  </div>
+</div>
+</body>
+
+</html>
